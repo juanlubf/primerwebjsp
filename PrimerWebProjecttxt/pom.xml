@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>PrimerWebProject</groupId>
   <artifactId>PrimerWebProject</artifactId>
-  <version>0.0.1-joaquin</version>
+  <version>juanlubf</version>
   <packaging>war</packaging>
    <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -76,11 +76,17 @@
     </plugins>
   </build>
   <dependencies>
-  <dependency>
-	<groupId>junit</groupId>
-	<artifactId>junit</artifactId>
-	<version>4.12</version>
+  	<dependency>
+		<groupId>junit</groupId>
+		<artifactId>junit</artifactId>
+		<version>4.12</version>
 	</dependency>
+	<dependency>
+         <groupId>javax.servlet</groupId>
+         <artifactId>servlet-api</artifactId>
+         <version>2.5</version>
+         <scope>provided</scope>
+     </dependency>
    </dependencies>
             
 </project>
